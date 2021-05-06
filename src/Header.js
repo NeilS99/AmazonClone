@@ -13,7 +13,11 @@ const Header = () => {
         <input className="header__searchInput" type="text" />
         {/* Logo */}
       </div>
-      <div className="header__nav"></div>
+      <div className="header__nav">
+        <div className="header___option"></div>
+        <div className="header___option"></div>
+        <div className="header___option"></div>
+      </div>
     </div>
   );
 };

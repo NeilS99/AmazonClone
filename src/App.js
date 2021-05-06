@@ -3,8 +3,11 @@ import "./App.css";
 
 function App() {
   return (
+    //BEM
     <div className="App">
       <h1> gg ez</h1>
+      {/* Header */}
+      {/* Home */}
     </div>
   );
 }
