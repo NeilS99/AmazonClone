@@ -13,13 +13,24 @@ const Home = () => {
         />
 
         <div className="home__row">
+          <Product
+            title="The lean startup"
+            price={19.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL.AC_SY400.jpg"
+            rating={5}
+          />
+          <Product />
+        </div>
+
+        <div className="home__row">
+          <Product />
           <Product />
           <Product />
         </div>
 
-        <div className="home__row"></div>
-
-        <div className="home__row"></div>
+        <div className="home__row">
+          <Product />
+        </div>
       </div>
     </div>
   );
