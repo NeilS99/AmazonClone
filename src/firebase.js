@@ -1,3 +1,5 @@
+import firebase from "firebase";
+
 const firebaseConfig = {
   apiKey: "AIzaSyB_6bDNxuoU1c8V5p1jegH3YRxs5HZMDtE",
   authDomain: "clone-67862.firebaseapp.com",
@@ -6,3 +8,10 @@ const firebaseConfig = {
   messagingSenderId: "675296057396",
   appId: "1:675296057396:web:9ebad9388fb866a6b7d261",
 };
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+
+export { db, auth };
